@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import styles from "./PokemonCard.module.css";
 import { convertItemImage } from "../../shared/utils/convertImageItem";
 import { Card } from 'antd';
 import { Typography } from "@mui/material";
@@ -31,12 +30,7 @@ export class PokemonCard extends Component {
   
   
   
-  {/* <div className={styles.card}>
-    <div className={styles.card_title}>{name}</div>
-    <img src={convertItemImage(id)} alt={name} />
-    <div>Type:{type}</div>
-    <div>EXP:{base_experience}</div>
-  </div> */}
+ 
   </>
 );
   }
